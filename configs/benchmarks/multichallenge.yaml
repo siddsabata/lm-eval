@@ -1,0 +1,12 @@
+name: "multichallenge"
+dataset:
+  source: "local"
+  path: "data/multichallenge"
+  split: "test"
+evaluation:
+  method: "lm_judge_instance_rubrics"
+  judge_votes: 3
+dev_mode:
+  enabled: true
+  samples: 20
+  sampling: "random"

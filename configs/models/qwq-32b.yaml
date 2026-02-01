@@ -1,0 +1,9 @@
+name: "Qwen/QwQ-32B"
+hf_id: "Qwen/QwQ-32B"
+vllm:
+  port: 8000
+  tensor_parallel_size: 1
+  max_model_len: 32768
+  gpu_memory_utilization: 0.9
+  dtype: "auto"
+  extra_args: []

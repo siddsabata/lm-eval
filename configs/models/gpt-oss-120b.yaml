@@ -1,0 +1,9 @@
+name: "openai/gpt-oss-120b"
+hf_id: "openai/gpt-oss-120b"
+vllm:
+  port: 8000
+  tensor_parallel_size: 1
+  max_model_len: 32768
+  gpu_memory_utilization: 0.9
+  dtype: "auto"
+  extra_args: []

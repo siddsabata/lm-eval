@@ -1,0 +1,12 @@
+name: "mt_bench"
+dataset:
+  source: "huggingface"
+  path: "lmsys/mt_bench"
+  split: "test"
+evaluation:
+  method: "lm_judge"
+  judge_votes: 3
+dev_mode:
+  enabled: true
+  samples: 10
+  sampling: "random"

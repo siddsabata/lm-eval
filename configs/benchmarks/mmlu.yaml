@@ -1,0 +1,11 @@
+name: "mmlu"
+dataset:
+  source: "huggingface"
+  path: "cais/mmlu"
+  split: "test"
+evaluation:
+  method: "regex"
+dev_mode:
+  enabled: true
+  samples: 100
+  sampling: "random"

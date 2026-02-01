@@ -1,0 +1,20 @@
+[project]
+name = "lm-eval"
+version = "0.1.0"
+description = "vLLM Evaluation Framework"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "aiohttp>=3.9.0",
+  "datasets>=2.0.0",
+  "numpy>=1.24.0",
+  "pandas>=2.0.0",
+  "pyyaml>=6.0.0",
+  "tqdm>=4.65.0",
+  "vllm>=0.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+]
